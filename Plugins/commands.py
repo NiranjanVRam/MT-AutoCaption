@@ -19,12 +19,9 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQ
 start_button=InlineKeyboardMarkup(
         [
               [
-                  InlineKeyboardButton("🗣️Group", url="t.me/Mo_Tech_Group"),
-                  InlineKeyboardButton("📃Bot List", url="https://t.me/Mo_Tech_YT/176"),
+                  InlineKeyboardButton("Group", url="https://t.me/MOVIECLUB_CHAT"),
+                  InlineKeyboardButton("Channel", url="https://t.me/MovieClubOfficiall"),
                   InlineKeyboardButton("🤖Status", callback_data = "status_data")
-              ], 
-              [
-                  InlineKeyboardButton("🖥️How To Own🖥️", url="https://youtu.be/p4Z9ZN1lZUk")
               ],
               [
                   InlineKeyboardButton("💡help", callback_data = "help_data"),
@@ -53,7 +50,7 @@ help_button=InlineKeyboardMarkup(
 about_button=InlineKeyboardMarkup(
         [
               [
-                  InlineKeyboardButton("⬇️ BACK", callback_data = "back_data"), 
+                  InlineKeyboardButton("⬅️ BACK", callback_data = "back_data"), 
                   InlineKeyboardButton("🔐 CLOSE", callback_data = "close_data")
               ]
         ]
@@ -160,18 +157,15 @@ async def button(bot, cmd: CallbackQuery):
                reply_markup=InlineKeyboardMarkup(
                    [
                       
-                       [
-                         InlineKeyboardButton("🗣️Group", url="t.me/Mo_Tech_Group"),
-                         InlineKeyboardButton("📃Bot List", url="https://t.me/Mo_Tech_YT/176"),
-                         InlineKeyboardButton("🤖Status", callback_data = "status_data")
-                       ], 
-                       [
-                         InlineKeyboardButton("🖥️How To Own🖥️", url="https://youtu.be/p4Z9ZN1lZUk")
-                       ],
-                       [
-                         InlineKeyboardButton("💡help", callback_data = "help_data"),
-                         InlineKeyboardButton("📕About", callback_data = "about_data"),
-                         InlineKeyboardButton("🔐Close", callback_data = "close_data")
+                      [
+                       InlineKeyboardButton("Group", url="https://t.me/MOVIECLUB_CHAT"),
+                       InlineKeyboardButton("Channel", url="https://t.me/MovieClubOfficiall"),
+                       InlineKeyboardButton("🤖Status", callback_data = "status_data")
+                      ],
+                      [
+                       InlineKeyboardButton("💡help", callback_data = "help_data"),
+                       InlineKeyboardButton("📕About", callback_data = "about_data"),
+                       InlineKeyboardButton("🔐Close", callback_data = "close_data")
                        ] 
                    ]
                )
