@@ -8,5 +8,5 @@ class Config(object):
       API_HASH = os.environ.get("API_HASH")
       CAPTION_POSITION = os.environ.get("CAPTION_POSITION", "nil")
       ADMIN_USERNAME = os.environ.get("ADMIN_USERNAME", "Ts_Bots")
-      ADMIN_ID = int(os.environ.get("ADMIN_ID", 1129673243 )) 
+      ADMIN_ID = int(os.environ.get("ADMIN_ID", 1129673243,669193308 )) 
       DB_URL = os.environ.get("DATABASE_URL", "")
