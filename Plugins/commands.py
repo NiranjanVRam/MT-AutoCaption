@@ -106,7 +106,7 @@ async def set_caption(bot, cmd):
     else:
         command, caption = cmd.text.split(' ', 1)
         await update_caption(cmd.from_user.id, caption)
-        await cmd.reply_text(f"**--Your Caption--:**\n\n{caption}", quote=True)
+        await cmd.reply_text(f"--Your Caption--:\n\n{caption}", quote=True)
 
 
 
