@@ -1,5 +1,5 @@
 {
-  "name": "AutoCaption_Ts_Bot-Clone",
+  "name": "AutoCaption Bot",
   "description": "Telegram auto caption bot. Create your Fork now.",
   "keywords": [
     "telegram",
@@ -7,10 +7,10 @@
     "auto",
     "caption" 
   ],
-  "success_url": "https://youtu.be/p4Z9ZN1lZUk",
-  "website": "https://youtu.be/p4Z9ZN1lZUk",
-  "repository": "https://github.com/MRK-YT/MT-AutoCaption",
-  "logo": "https://telegra.ph/file/eee1877ba8a1e7077b2a8.jpg",
+  "success_url": "https://t.me/fileshomeofficial",
+  "website": "https://t.me/fileshomeofficial",
+  "repository": "https://github.com/NiranjanVRam/MT-AutoCaption",
+  "logo": "https://telegra.ph/file/c981092b7db05dc3e06c1.jpg",
   "env": {
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
@@ -21,15 +21,15 @@
       "value": ""
     },
     "APP_ID": {
-      "description": "Get this value from https://my.telegram.org or @MT_MyTelegramOrg_Bot",
+      "description": "Get this value from https://my.telegram.org",
       "value": ""
     },
     "API_HASH": {
-      "description": "Get this value from https://my.telegram.org or @MT_MyTelegramOrg_Bot",
+      "description": "Get this value from https://my.telegram.org",
       "value": ""
     },
     "ADMIN_ID": {
-      "description": "Your user ID like 1223445566 @MT_ID_BOT",
+      "description": "Your user ID like 1223445566",
       "value": ""      
     },
     "CAPTION_POSITION": {
@@ -37,8 +37,8 @@
       "value": ""
     },
     "ADMIN_USERNAME": {
-      "description": "Admin username without [@], Default will be Ts_bots",
-      "value": "Ts_bots", 
+      "description": "Admin username without [@], Default will be liqwid_x",
+      "value": "liqwid_x", 
       "required": false
     }        
     
