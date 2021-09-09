@@ -43,7 +43,7 @@ You can deploy the bot using heroku
  
 - 👇 Press the deploy button.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/NickxFury/MT-AutoCaption)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/NiranjanVRam/MT-AutoCaption)
 
 ## Please note
 
@@ -53,7 +53,7 @@ I am not a progrommer though it is written in my own hands
 If you have any suggestions to update the bot for better user friendly expirience you can contact me 
 Through [@Mo_Tech_YT](https://telegram.me/Mo_Tech_YT) or you can contact me directly.
 
-## My Channel
+## Channel
 
 <b>[Mo_Tech_YT](https://telegram.me/Mo_Tech_YT)</b>
 
