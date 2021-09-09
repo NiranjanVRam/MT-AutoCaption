@@ -21,7 +21,7 @@ async def editing(bot, message):
       try:
          caption_text = caption_text.caption
       except:
-         caption_text = "**Powered By @fileshomeofficial**"
+         caption_text = ""
          pass 
       if (message.document or message.video or message.audio): 
           if message.caption:                        
