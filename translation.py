@@ -8,7 +8,7 @@ class Translation(object):
 I am a simple auto caption bot
 I can automatically add pre-setted caption to the files in channels
 
-⚜️ Maintained By 👉 @NickxFury
+⚜️ Maintained By 👉 @liqwid_x
 """    
 
       HELP_TEXT = """
@@ -52,7 +52,7 @@ Noting Great About Me
 
 👉 <b>Hyperlink text</b>
 
-📌 <code>[hyperlink_text](https://t.me/MovieClubOfficiall)</code> 
+📌 <code>[hyperlink_text](https://t.me/fileshomeofficial)</code> 
 """
 
 # Bot status display
