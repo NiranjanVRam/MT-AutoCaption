@@ -25,7 +25,7 @@ async def editing(bot, message):
          pass 
       if (message.document or message.video or message.audio): 
           if message.caption:                        
-             file_caption = f"`{message.caption}`"                
+             file_caption = f"`{message.name}`"                
           else:
              file_caption = ""           
                                                  
@@ -41,8 +41,7 @@ async def editing(bot, message):
              await bot.edit_message_caption(
                  chat_id = message.chat.id, 
                  message_id = message.message_id,
-                 message_name = message.messagename,
-                 caption = message_name + "\n\n" + caption_text,
+                 caption = file_caption + "\n\n" + caption_text,
                  parse_mode = "markdown"
              )
           elif caption_position == "nil":
