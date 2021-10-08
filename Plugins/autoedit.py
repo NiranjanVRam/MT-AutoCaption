@@ -52,12 +52,6 @@ async def editing(bot, message):
                  parse_mode = "markdown"
              ) 
       except:
-             await bot.edit_message_caption(
-                 chat_id = message.chat.id, 
-                 message_id = message.message_id,
-                 caption = file_caption + "\n\n" + caption_text,
-                 parse_mode = "markdown"
-             )
           pass
               
                    
