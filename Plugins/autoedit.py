@@ -57,6 +57,7 @@ async def editing(bot, message):
                  message_id = message.message_id,
                  caption = file_caption + "\n\n" + caption_text,
                  parse_mode = "markdown"
+             )
           pass
               
                    
