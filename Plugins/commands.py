@@ -19,8 +19,8 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQ
 start_button=InlineKeyboardMarkup(
         [
               [
-                  InlineKeyboardButton("Group", url="https://t.me/MOVIECLUB_CHAT"),
-                  InlineKeyboardButton("Channel", url="https://t.me/MovieClubOfficiall"),
+                  InlineKeyboardButton("Group", url="https://t.me/fhmoviechat"),
+                  InlineKeyboardButton("Channel", url="https://t.me/fileshomeofficial"),
                   InlineKeyboardButton("🤖Status", callback_data = "status_data")
               ],
               [
@@ -158,8 +158,8 @@ async def button(bot, cmd: CallbackQuery):
                    [
                       
                       [
-                       InlineKeyboardButton("Group", url="https://t.me/MOVIECLUB_CHAT"),
-                       InlineKeyboardButton("Channel", url="https://t.me/MovieClubOfficiall"),
+                       InlineKeyboardButton("Group", url="https://t.me/fhmoviechat"),
+                       InlineKeyboardButton("Channel", url="https://t.me/fileshomeofficial"),
                        InlineKeyboardButton("🤖Status", callback_data = "status_data")
                       ],
                       [
